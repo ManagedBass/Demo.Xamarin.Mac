@@ -1,10 +1,8 @@
-# ManagedBass
+# Xamarin.Mac.AudioPlayer
 
 Simple audio player example using [ManagedBass](https://github.com/ManagedBass/ManagedBass) with Xamarin on a Mac
 
-Bass and its Add-Ons can be downloaded at http://un4seen.com/  
-ManagedBass is targeted for **Any CPU**, but bass Libraries(dll/so/dylib) are separate for x86, x64, ARM, etc.  
-Download the versions you need.
+Contributed by: [Brian Pieslak](github.com/bpieslak)
 
 > For latest info: Follow [ManagedBass Blog](https://managedbass.wordpress.com)
 
