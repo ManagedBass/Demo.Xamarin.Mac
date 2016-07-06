@@ -1,24 +1,11 @@
 # Xamarin.Mac.AudioPlayer
-
-Simple audio player example using [ManagedBass](https://github.com/ManagedBass/ManagedBass) with Xamarin on a Mac
+Simple audio player example using ManagedBass with Xamarin on a Mac
 
 Contributed by: [Brian Pieslak](github.com/bpieslak)
 
-> For latest info: Follow [ManagedBass Blog](https://managedbass.wordpress.com)
-
 # How To Use
-
-Download libbass.dylib from Un4seen, and place it in this project folder directly next to the 'Xamarin.Mac.Player.sln' file.
-
-Open Xamarin.Mac.Player.sln using Xamarin Studio, compile and run.
-
-When the window opens, enter the path to the audio file you wish to play, and then click Play.
-
-While the audio is playing, click the Stop button when you wish to stop the audio.
-
-If you encounter any exceptions while attempting to play or stop the audio, check the \bin\Debug output folder and confirm that both libbass.dylib and ManagedBass.dll exist in the output folder.
-
-
-
-
-Bass and other Add-Ons are trademarks of their respective owners: **Un4Seen Bass - (c) Ian Luck**
+1. Download `libbass.dylib` from Un4seen, and place it in the `src` folder.
+2. Open `Xamarin.Mac.Player.sln` using Xamarin Studio, compile and run.
+3. When the window opens, enter the path to the audio file you wish to play, and then click Play.
+4. While the audio is playing, click the Stop button when you wish to stop the audio.
+5. If you encounter any exceptions while attempting to play or stop the audio, check the `\bin\Debug` output folder and confirm that both `libbass.dylib` and `ManagedBass.PInvoke.dll` exist in the output folder.
